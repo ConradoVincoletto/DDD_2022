@@ -1,0 +1,1 @@
+# Projeto DDD, utilizando, apenas conceitualmente o TDD, Identity (controle de usuários), JWT (Json Web Token), e AutoMapper.
