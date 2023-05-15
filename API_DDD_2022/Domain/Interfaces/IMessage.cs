@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Domain.Interfaces
 {
-    public interface IMessage : IGeneric<Message>
+    public interface IMessage : IGeneric<Message> 
     {
     }
 }
