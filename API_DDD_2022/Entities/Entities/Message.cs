@@ -26,5 +26,11 @@ namespace Entities.Entities
 
         [Column("MSN_DATA_ALTERACAO")]
         public DateTime DataAlteracao { get; set; }
+
+        [ForeignKey("ApplicationUser")]
+        [Column(Order = 1)]
+
+        public int UserId { get; set; }
+        public virtual ApplicationUser ApplicationUser { get; set; }
     }
 }
